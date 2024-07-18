@@ -1,0 +1,27 @@
+{
+  "name": "wops",
+  "version": "0.0.1",
+  "keywords": [
+    "WP"
+  ],
+  "description": "Some WordPress",
+  "license": "ISC",
+  "author": "https://github.com/stanislavzadiraev",
+  "homepage": "https://github.com/stanislavzadiraev/wops#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanislavzadiraev/wops.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stanislavzadiraev/wops/issues"
+  },
+  "devDependencies": {
+    "pusher": "github:stanislavzadiraev/pusher"
+  },
+  "scripts": {
+    "pusher": "pusher"
+  },
+  "type": "module",
+  "main": "dst/index.js",
+  "bin": "bin/index.js"
+}
